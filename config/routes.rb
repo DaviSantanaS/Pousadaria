@@ -25,4 +25,8 @@ Rails.application.routes.draw do
       resources :inn_rooms, only: [:show]
     end
   end
+
+  resources :group_reservation, only: [:new, :index, :create]
+
+
 end
