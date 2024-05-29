@@ -22,7 +22,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :inn_rooms, only[:show]
+      resources :inn_rooms, only: [:show]
     end
   end
 end
