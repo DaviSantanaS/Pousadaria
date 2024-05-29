@@ -32,7 +32,6 @@ describe "Inn owner manage make a group reservarion" do
     expect(page).to have_content("data_termino")
     expect(page).to have_content("quartos relacionados: quarto1")
 
-
   end
 
 end
